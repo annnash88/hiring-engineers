@@ -14,7 +14,7 @@ I opted to use Linux's in-line file editor nano for my additions. Below is an in
 ##### datadog.conf custom tags  
 ![datadog.conf file terminal view](https://github.com/annnash88/hiring-engineers/blob/master/conf-tags.png?raw=true)  
 
-Access my code file by [clicking here & scroll to line 32 for custom tags.](hiring-engineers/support-engineer-code/datadog.conf)  
+Access my code file by [clicking here & scroll to line 32 for custom tags.](https://github.com/annnash88/hiring-engineers/blob/master/datadog.conf)  
 
 After making changes to the datadog.conf file, restart the Agent by using the following command:   
 `sudo /etc/init.d/datadog-agent restart`. Within a few minutes, the Datadog UI host map should synch up with your modified host. On the Host map click on your modified host and you will see the custom tags you added to the datadog.conf file as seen below on the far-right.
