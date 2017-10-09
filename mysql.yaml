@@ -3,7 +3,7 @@ init_config:
 instances:
   - server: localhost
     user: datadog
-    pass: '92tSkgv7rL5eb6Vb5W2f<MPc'
+    pass: <UNIQUEPASSWORD>
     port: 3306
     options:
         replication: 0
